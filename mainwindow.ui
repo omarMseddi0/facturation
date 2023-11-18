@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1258</width>
+    <height>841</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SFMI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="selectLab">
+      <property name="text">
+       <string>Sélectionnez une société</string>
+      </property>
+     </widget>
+    </item>
+    <item row="21" column="0" colspan="4">
+     <widget class="QPushButton" name="deleteBtn">
+      <property name="text">
+       <string>Supprimer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="fax2Box"/>
+    </item>
+    <item row="1" column="0" colspan="2">
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="faxLab">
+      <property name="text">
+       <string>Fax</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="telLab">
+      <property name="text">
+       <string>Tel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="contactLab">
+      <property name="text">
+       <string>Contact</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLineEdit" name="telBox"/>
+    </item>
+    <item row="5" column="0" colspan="4">
+     <widget class="QLineEdit" name="contactBox"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="matLab">
+      <property name="text">
+       <string>Matricule Fiscale</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0" colspan="4">
+     <widget class="QLineEdit" name="emailBox"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLabel" name="tel2Lab">
+      <property name="text">
+       <string>Tel2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLineEdit" name="faxBox"/>
+    </item>
+    <item row="11" column="0" colspan="4">
+     <widget class="QLineEdit" name="adressBox"/>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="adressLab">
+      <property name="text">
+       <string>Adresse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLabel" name="fax2Lab">
+      <property name="text">
+       <string>Fax2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="refreshBtn">
+      <property name="text">
+       <string>Actualiser</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="tel2Box"/>
+    </item>
+    <item row="19" column="0" colspan="4">
+     <widget class="QPushButton" name="UpdateBtn">
+      <property name="text">
+       <string>Mise à jour</string>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0" colspan="4">
+     <widget class="QPushButton" name="createBtn">
+      <property name="text">
+       <string>Ajouter nouveau</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="nameLab">
+      <property name="text">
+       <string>Nom</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0">
+     <widget class="QLabel" name="emailLab">
+      <property name="text">
+       <string>Email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" colspan="4">
+     <widget class="QLineEdit" name="matBox"/>
+    </item>
+    <item row="3" column="0" colspan="4">
+     <widget class="QLineEdit" name="nameBox">
+      <property name="clearButtonEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>comboBox</tabstop>
+  <tabstop>refreshBtn</tabstop>
+  <tabstop>nameBox</tabstop>
+  <tabstop>contactBox</tabstop>
+  <tabstop>telBox</tabstop>
+  <tabstop>tel2Box</tabstop>
+  <tabstop>faxBox</tabstop>
+  <tabstop>fax2Box</tabstop>
+  <tabstop>adressBox</tabstop>
+  <tabstop>matBox</tabstop>
+  <tabstop>emailBox</tabstop>
+  <tabstop>createBtn</tabstop>
+  <tabstop>UpdateBtn</tabstop>
+  <tabstop>deleteBtn</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
